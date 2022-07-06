@@ -1,4 +1,4 @@
-This is a simple full stack Application that retrieves photos from Unsplash with help of my Python API.
+This is a simple full stack Application that retrieves photos from Unsplash with help of my Express REST API
 
 In order to start:
 
