@@ -1,6 +1,4 @@
-Node.js/Express based server for my image-gallery app
-
-This is a simple Full stack Application that retrieves photos from Unsplash with help of my Python API.
+This is a simple full stack Application that retrieves photos from Unsplash with help of my Python API.
 
 In order to start:
 
