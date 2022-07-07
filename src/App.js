@@ -11,7 +11,8 @@ import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3000";
+const API_URL =
+  process.env.REACT_APP_API_URL || "https://gallery-express-api.herokuapp.com";
 
 function App() {
   const [word, setWord] = useState("");
@@ -53,7 +54,7 @@ function App() {
 
   const handleDeleteImage = async (image) => {
     try {
-      const res = await axios.delete(`${API_URL}/images/${image.id}`);
+      await axios.delete(`${API_URL}/images/${image.id}`);
       toast.warn(`Image ${image.title.toUpperCase()} was deleted`);
     } catch (error) {
       console.log(error);
