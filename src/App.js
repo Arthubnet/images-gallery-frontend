@@ -60,7 +60,7 @@ function App() {
       console.log(error);
       toast.error(error.message);
     }
-    setImages(images.filter((item) => item._id !== image._id));
+    setImages(images.filter((item) => item.id !== image.id));
   };
 
   const handleSaveImage = async (id) => {
