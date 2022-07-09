@@ -24,6 +24,14 @@ const Welcome = () => (
       from the state and current session, if the picture was saved, page
       reloading will return it due to useEffect hook that Fetches images from
       our database.
+      <br />
+      <br />
+      Attention: all the found images depend on&nbsp;
+      <a href="http://www.unsplash.com" target="__blank">
+        Unsplash
+      </a>
+      &nbsp;search engine, Images Gallery app is only responsible for
+      communication between endpoints.
     </p>
   </div>
 );
